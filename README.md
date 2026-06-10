@@ -1,6 +1,4 @@
 # 🧠 Age Classification via Regularized ResNet-18
-### Deep Learning — Spring 2026 · Programming Assignment 1
-### Roll No: `b23cm1003`
 
 <p align="center">
   <img src="https://img.shields.io/badge/PyTorch-2.x-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white"/>
@@ -504,5 +502,5 @@ b23cm1003.pdf   ← One-page approach report
 ---
 
 <p align="center">
-  Made with ❤️ for Deep Learning Spring 2026 · Roll No: b23cm1003
+  Made with ❤️ for Deep Learning Spring 2026 
 </p>

@@ -281,34 +281,69 @@ Run `03_model_comparison.ipynb` to see the full robustness comparison chart.
 
 ---
 
-## 🖼️ Comparative Evaluation Visuals
+## 📈 Comparative Evaluation Visualizations
 
-The following plots summarize the head-to-head comparison between Phase 1 and Phase 2:
+The following figures summarize the head-to-head comparison between the Knowledge Distillation model (Phase 1) and the Strong Regularization + EMA model (Phase 2).
 
-### Core Metrics Comparison
+### Core Performance Metrics
 
-<img src="assets/comparative_evaluation/comparison_core_metrics.png" alt="Core metrics comparison" />
+<p align="center">
+  <img src="assets/comparative_evaluation/comparison_core_metrics.png" width="85%">
+</p>
 
-### Inference Latency
+*Comparison of Accuracy, Balanced Accuracy, Precision, Recall, F1 Score, ROC-AUC, and Log Loss.*
 
-<img src="assets/comparative_evaluation/comparison_inference_latency.png" alt="Inference latency comparison" />
+---
+
+### Inference Latency Comparison
+
+<p align="center">
+  <img src="assets/comparative_evaluation/comparison_inference_latency.png" width="70%">
+</p>
+
+*Average inference time per image for both models.*
+
+---
 
 ### Accuracy by Age Bucket
 
-<img src="assets/comparative_evaluation/comparison_age_bucket_accuracy.png" alt="Accuracy by age bucket comparison" />
+<p align="center">
+  <img src="assets/comparative_evaluation/comparison_age_bucket_accuracy.png" width="85%">
+</p>
 
-### Confidence and Entropy Distributions
+*Performance comparison across different age groups.*
 
-<img src="assets/comparative_evaluation/comparison_confidence_entropy_distribution.png" alt="Confidence and entropy distribution comparison" />
+---
 
-### Win / Loss / Agreement Breakdown
+### Confidence and Entropy Analysis
 
-<img src="assets/comparative_evaluation/comparison_win_loss_agreement.png" alt="Win loss agreement comparison" />
+<p align="center">
+  <img src="assets/comparative_evaluation/comparison_confidence_entropy_distribution.png" width="90%">
+</p>
 
-### Robustness Comparison
+*Comparison of prediction confidence and entropy distributions.*
 
-<img src="assets/comparative_evaluation/comparison_robustness_evaluation.png" alt="Robustness comparison" />
+---
 
+### Win–Loss–Agreement Breakdown
+
+<p align="center">
+  <img src="assets/comparative_evaluation/comparison_win_loss_agreement.png" width="75%">
+</p>
+
+*Breakdown of samples where both models agree, disagree, or individually outperform one another.*
+
+---
+
+### Robustness Evaluation
+
+<p align="center">
+  <img src="assets/comparative_evaluation/comparison_robustness_evaluation.png" width="85%">
+</p>
+
+*Performance under image perturbations including noise, blur, JPEG compression, and brightness shifts.*
+
+---
 
 ## 🧪 Evaluation Framework
 

@@ -22,7 +22,7 @@
 - [Project Structure](#-project-structure)
 - [Setup & Installation](#-setup--installation)
 - [Usage](#-usage)
-- [Assignment Constraints](#-assignment-constraints)
+- [Constraints](#-constraints)
 - [References](#-references)
 
 ---
@@ -343,7 +343,7 @@ age-classification/
 
 ---
 
-## ⚙️ Setup & Installation
+## ⚙️  Setup & Installation
 
 ### Requirements
 
@@ -473,7 +473,7 @@ b23cm1003.pdf   ← One-page approach report
 
 ---
 
-## 🔒 Assignment Constraints
+## 🔒 Constraints
 
 | Constraint | Phase 1 | Phase 2 |
 |-----------|:-------:|:-------:|

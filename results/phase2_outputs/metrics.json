@@ -1,0 +1,14 @@
+{
+  "accuracy": 0.663,
+  "balanced_accuracy": 0.6642857142857143,
+  "precision": 0.6970387243735763,
+  "recall": 0.6,
+  "f1": 0.6448893572181243,
+  "roc_auc": 0.740968387354942,
+  "log_loss": 0.6406544836359358,
+  "avg_batch_time_sec": 0.2143589302499933,
+  "ms_per_image": 3.429742883999893,
+  "model_file_mb": 43.24,
+  "prediction_entropy": 0.47106346292652973,
+  "confidence_mean": 0.7825993797779083
+}
